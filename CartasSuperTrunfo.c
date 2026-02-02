@@ -34,33 +34,59 @@ int main(){
   int população;
   int Pontos_Turísticos;
 
-  // Área para entrada de dados
+  // Área para entrada de dados da carta 01
   printf ("Jogador 1 insira os dados da sua carta \n");
   printf ("Insira o nome do Estado use _ no lugar de Espaço \n");
-  scanf ("%s", Estado);
+  scanf ("%s", Estado01);
   printf ("Insira o nome da Cidade \n");
-  scanf ("%s", Cidade);
+  scanf ("%s", Cidade01);
   printf ("Insira o Código da Carta \n");
-  scanf ("%s", Código);
+  scanf ("%s", Código01);
   printf ("Insira a área em KM \n");
-  scanf ("%f", &Área);
+  scanf ("%f", &Área01);
   printf ("Insira o PIB da cidade \n");
-  scanf ("%d", &PIB);
+  scanf ("%d", &PIB01);
   printf ("Insira a população da cidade \n");
-  scanf ("%d", &população);
+  scanf ("%d", &população01);
   printf ("Insira a quantidade de Pontos Turísticos \n");
-  scanf ("%d", &Pontos_Turísticos);
+  scanf ("%d", &Pontos_Turísticos01);
+
+  // Área para entrada de dados da carta 02
+  printf ("Jogador 2 insira os dados da sua carta \n");
+  printf ("Insira o nome do Estado use _ no lugar de Espaço \n");
+  scanf ("%s", Estado02);
+  printf ("Insira o nome da Cidade \n");
+  scanf ("%s", Cidade02);
+  printf ("Insira o Código da Carta \n");
+  scanf ("%s", Código02);
+  printf ("Insira a área em KM \n");
+  scanf ("%f", &Área02);
+  printf ("Insira o PIB da cidade \n");
+  scanf ("%d", &PIB02);
+  printf ("Insira a população da cidade \n");
+  scanf ("%d", &população02);
+  printf ("Insira a quantidade de Pontos Turísticos \n");
+  scanf ("%d", &Pontos_Turísticos02);
 
 
   // Área para exibição dos dados da cidade
   printf ("\n");
-  printf ("Estado: %s \n", Estado);
-  printf ("Cidade: %s \n", Cidade);
-  printf ("Código da Carta: %s \n", Código);
-  printf ("Área: %.2f KM \n", Área);
-  printf ("PIB: %d \n", PIB);
-  printf ("População: %d \n", população);
-  printf ("Pontos Turísticos: %d \n", Pontos_Turísticos);
+  printf ("Estado: %s \n", Estado01);
+  printf ("Cidade: %s \n", Cidade01);
+  printf ("Código da Carta: %s \n", Código01);
+  printf ("Área: %.2f KM \n", Área01);
+  printf ("PIB: %d \n", PIB01);
+  printf ("População: %d \n", população01);
+  printf ("Pontos Turísticos: %d \n", Pontos_Turísticos01);
+
+  printf ("\n");
+  printf ("Estado: %s \n", Estado02);
+  printf ("Cidade: %s \n", Cidade02);
+  printf ("Código da Carta: %s \n", Código02);
+  printf ("Área: %.2f KM \n", Área02);
+  printf ("PIB: %d \n", PIB02);
+  printf ("População: %d \n", população02);
+  printf ("Pontos Turísticos: %d \n", Pontos_Turísticos02);
 
 return 0;
 } 
