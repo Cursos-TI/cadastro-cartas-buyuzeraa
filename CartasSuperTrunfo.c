@@ -35,6 +35,7 @@ int main(){
   int Pontos_Turísticos;
 
   // Área para entrada de dados
+  printf ("Jogador 1 insira os dados da sua carta \n");
   printf ("Insira o nome do Estado use _ no lugar de Espaço \n");
   scanf ("%s", Estado);
   printf ("Insira o nome da Cidade \n");
