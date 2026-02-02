@@ -26,13 +26,21 @@
 
 int main(){ 
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  char Estado [18];
-  char Cidade [15];
-  char Código [3];
-  float Área;
-  int PIB;
-  int população;
-  int Pontos_Turísticos;
+  char Estado01 [18];
+  char Cidade01 [15];
+  char Código01 [3];
+  float Área01;
+  float PIB01;
+  float população01;
+  int Pontos_Turísticos01;
+
+  char Estado02 [17];
+  char Cidade02 [14];
+  char Código02 [4];
+  float Área02;
+  float PIB02;
+  float população02;
+  int Pontos_Turísticos02;
 
   // Área para entrada de dados da carta 01
   printf ("Jogador 1 insira os dados da sua carta \n");
@@ -45,9 +53,9 @@ int main(){
   printf ("Insira a área em KM \n");
   scanf ("%f", &Área01);
   printf ("Insira o PIB da cidade \n");
-  scanf ("%d", &PIB01);
+  scanf ("%f", &PIB01);
   printf ("Insira a população da cidade \n");
-  scanf ("%d", &população01);
+  scanf ("%f", &população01);
   printf ("Insira a quantidade de Pontos Turísticos \n");
   scanf ("%d", &Pontos_Turísticos01);
 
@@ -62,9 +70,9 @@ int main(){
   printf ("Insira a área em KM \n");
   scanf ("%f", &Área02);
   printf ("Insira o PIB da cidade \n");
-  scanf ("%d", &PIB02);
+  scanf ("%f", &PIB02);
   printf ("Insira a população da cidade \n");
-  scanf ("%d", &população02);
+  scanf ("%f", &população02);
   printf ("Insira a quantidade de Pontos Turísticos \n");
   scanf ("%d", &Pontos_Turísticos02);
 
