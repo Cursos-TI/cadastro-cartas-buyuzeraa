@@ -25,8 +25,8 @@
 
 
 int main(){ 
-  // Área para definição das variáveis para armazenar as propriedades das cidades
-  char Estado01 [18];
+  // Área para definição das variáveis para armazenar as propriedades das cidades, deve-se inserir _ no lugar de espaço nos nomes
+  char Estado01 [18]; 
   char Cidade01 [15];
   char Código01 [3];
   float Área01;
@@ -60,7 +60,7 @@ int main(){
   scanf ("%d", &Pontos_Turísticos01);
 
   // Área para entrada de dados da carta 02
-  printf ("\n") 
+  printf ("\n");
   printf ("Jogador 2 insira os dados da sua carta \n");
   printf ("Insira o nome do Estado use _ no lugar de Espaço \n");
   scanf ("%s", Estado02);
