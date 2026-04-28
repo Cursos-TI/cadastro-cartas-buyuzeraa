@@ -107,80 +107,23 @@ int main(){
   printf ("População: %.2f \n", população02);
   printf ("Pontos Turísticos: %d \n", Pontos_Turísticos02);
   printf ("Densidade Demográfica: %.2f \n", Densidade02);
-  printf ("PIB per Capita %.2f \n", pibCapita02);
+  printf ("PIB per Capita %.2f \n \n", pibCapita02);
 
-  int opcao; 
-  printf ("Quais dados serão comparados?");
-  printf("1 - Populacao\n");
-  printf("2 - Area\n");
-  printf("3 - PIB\n");
-  printf("4 - Pontos Turisticos\n");
-  printf("5 - Densidade\n");
-  printf("6 - PIB per Capita\n");
-  scanf("%d", &opcao);
+ long int SuperPoderA = Área01 + PIB01 + Pontos_Turísticos01 + Densidade01 + pibCapita01;
+ long int SuperPoderB = Área02 + PIB02 + Pontos_Turísticos02 + Densidade02 + pibCapita02;
 
-  switch(opcao) {
-
-    case 1: // Área
-        if (Área01 > Área02)
-            printf("Carta 1 venceu (Area)!\n");
-        else if (Área02 > Área01)
-            printf("Carta 2 venceu (Area)!\n");
-        else
-            printf("Empate!\n");
-        break;
-
-    case 2: // PIB
-        if (PIB01 > PIB02)
-            printf("Carta 1 venceu (PIB)!\n");
-        else if (PIB02 > PIB01)
-            printf("Carta 2 venceu (PIB)!\n");
-        else
-            printf("Empate!\n");
-        break;
-
-    case 3: // População
-        if (população01 > população02)
-            printf("Carta 1 venceu (Populacao)!\n");
-        else if (população02 > população01)
-            printf("Carta 2 venceu (Populacao)!\n");
-        else
-            printf("Empate!\n");
-        break;
-
-    case 4: // Pontos turísticos
-        if (Pontos_Turísticos01 > Pontos_Turísticos02)
-            printf("Carta 1 venceu (Pontos Turisticos)!\n");
-        else if (Pontos_Turísticos02 > Pontos_Turísticos01)
-            printf("Carta 2 venceu (Pontos Turisticos)!\n");
-        else
-            printf("Empate!\n");
-        break;
-
-    case 5: // Densidade (MENOR vence)
-        if (Densidade01 < Densidade02)
-            printf("Carta 1 venceu (Densidade)!\n");
-        else if (Densidade02 < Densidade01)
-            printf("Carta 2 venceu (Densidade)!\n");
-        else
-            printf("Empate!\n");
-        break;
-
-    case 6: // PIB per capita
-        if (pibCapita01 > pibCapita02)
-            printf("Carta 1 venceu (PIB per Capita)!\n");
-        else if (pibCapita02 > pibCapita01)
-            printf("Carta 2 venceu (PIB per Capita)!\n");
-        else
-            printf("Empate!\n");
-        break;
-
-    default:
-        printf("Opcao invalida!\n");
-
-  }
+ printf("o super poder de A é: %ld \n", SuperPoderA);
+ printf("o super poder de B é: %ld \n \n", SuperPoderB);
+  
 
 
+ printf("Área vence: %d \n", Área01 > Área02);
+ printf("PIB vence: %d \n", PIB01 > PIB02);
+ printf("População vence: %d \n", população01 > população02);
+ printf("pontos turísticos vence: %d \n", Pontos_Turísticos01 > Pontos_Turísticos02);
+ printf("Densidade Demográfica vence: %d \n", Densidade01 > Densidade02);
+ printf("PIB Per Capita vence: %d \n", pibCapita01 > pibCapita02);
+ printf("Super Poder vence: %d \n", SuperPoderA > SuperPoderB);
 
 return 0;
 } 
