@@ -121,7 +121,7 @@ int main(){
  printf("PIB vence: %d \n", PIB01 > PIB02);
  printf("População vence: %d \n", população01 > população02);
  printf("pontos turísticos vence: %d \n", Pontos_Turísticos01 > Pontos_Turísticos02);
- printf("Densidade Demográfica vence: %d \n", Densidade01 > Densidade02);
+ printf("Densidade Demográfica vence: %d \n", Densidade01 < Densidade02);
  printf("PIB Per Capita vence: %d \n", pibCapita01 > pibCapita02);
  printf("Super Poder vence: %d \n", SuperPoderA > SuperPoderB);
 
